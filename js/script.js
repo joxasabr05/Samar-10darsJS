@@ -26,9 +26,16 @@ let number = 2;
 //   console.log(i);
 // }
 
-for (let i = 0; i <= 15; i++) {
+for (let i = 0; i <= 9; i++) {
   if (i === 6) {
     continue;
+  }
+  console.log(i);
+}
+
+for (let i = 1; i <= 100; i++) {
+  if (i >= 99) {
+    break;
   }
   console.log(i);
 }
